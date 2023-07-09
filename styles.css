@@ -1,40 +1,45 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
-font-family: 'Rubik', sans-serif;
-font-family: 'Ubuntu', sans-serif;
-font-family: 'Work Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
-.banner-container{
-   background-image: url('images/banner/banner1.png');
-   
-   height: 800px;
-   display: flex;
-   text-align: right;
-   justify-content: center;
-   align-items: center;
+
+.banner-container {
+    background-image: url('images/banner/banner1.png');
+
+    height: 800px;
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
 }
-.banner{
-   margin-right: 200px;
+
+.banner {
+    margin-right: 200px;
 }
-.banner-heading{
-    color:  #151414;
+
+.banner-heading {
+    color: #151414;
     text-align: right;
     font-family: Work Sans;
     font-size: 65px;
     margin-bottom: 24px;
     font-weight: 700;
-    
+
 }
-.banner-description{
-    color:  #444343;
+
+.banner-description {
+    color: #444343;
     text-align: right;
     font-family: Work Sans;
     font-size: 16px;
     margin-left: 800px;
     font-weight: 400;
-    
+
 }
-.btn{
+
+.btn {
     border-radius: 5px;
     background: #F15B22;
     color: white;
@@ -42,18 +47,74 @@ font-family: 'Work Sans', sans-serif;
     border: 0px;
     margin-top: 32px;
 }
+
 /* main section part */
-.section-container{
+.section-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 300px;
 }
-.image{
-    margin-left: 200px;
+
+.image {
+    margin-left: 100px;
 
 }
-.section-read{
+
+.section-read {
     background: #FFF;
-   
+
+}
+
+.section-heading {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.section-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    width: 400px;
+    margin-bottom: 16px;
+}
+
+.list {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: lower-latin;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-heading {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.box{
+    align-items: center;
+
+}
+.icon-img {
+ place-items: center;
+}
+
+.icon-heading {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.icon-pera{
+    text-align: center;
 }
