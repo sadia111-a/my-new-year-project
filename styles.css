@@ -6,7 +6,7 @@ font-family: 'Work Sans', sans-serif;
 }
 .banner-container{
    background-image: url('images/banner/banner1.png');
-   /* width: 1600px; */
+   
    height: 800px;
    display: flex;
    text-align: right;
@@ -41,4 +41,19 @@ font-family: 'Work Sans', sans-serif;
     padding: 20px;
     border: 0px;
     margin-top: 32px;
+}
+/* main section part */
+.section-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.image{
+    margin-left: 200px;
+
+}
+.section-read{
+    background: #FFF;
+   
 }
